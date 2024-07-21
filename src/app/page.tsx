@@ -1,7 +1,8 @@
-import About from "@/components/About";
-import Card from "@/components/Card";
-import TopSection from "@/components/TopSection";
 import Image from "next/image";
+import Work from "@/components/Work";
+import TopSection from "@/components/TopSection";
+import Blog from "@/components/Blog";
+import Philanthropy from "@/components/Philanthropy";
 
 export default function Home() {
   return (
@@ -9,27 +10,11 @@ export default function Home() {
       <main className="container">
         <TopSection />
 
-        <About />
+        <Work />
 
-        <div className="work bg-red-500">
-          <div className="design grid grid-cols-4 gap-4">
-            <Card />
-            <Card />
-            <Card />
-          </div>
-        </div>
+        <Blog />
 
-        <div className="Blog">
-          <a href="/Blog">
-            <div className="design">
-              <li>Blog</li>
-            </div>
-          </a>
-        </div>
-
-        <div className="Philanthropy and interests">
-          <div className="design">content</div>
-        </div>
+        <Philanthropy />
       </main>
     </>
   );

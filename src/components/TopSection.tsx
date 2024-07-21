@@ -1,6 +1,6 @@
 export default function TopSection() {
   return (
-    <div className="Top layer w-ful h-60  ">
+    <div className="Top-layer w-ful h-60  ">
       <header className="Title flex ">
         <div className="Name h-full">
           <div className="Name-split">
