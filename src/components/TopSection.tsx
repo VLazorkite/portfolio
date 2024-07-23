@@ -1,3 +1,7 @@
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 export default function TopSection() {
   return (
     <div className="Top-layer w-ful h-60  ">
@@ -19,15 +23,23 @@ export default function TopSection() {
           </h2>
         </div>
       </header>
-      <ul className="Social-links  flex space-x-4">
+      <ul className="Social-links  flex space-x-9">
+        <div className="icon">
+          <li>
+            <a href="https://github.com/VLazorkite">
+              <FaGithub size={40} />
+            </a>
+          </li>
+        </div>
         <li>
-          <a href="#">github</a>
+          <a href="https://www.linkedin.com/in/maxwell-rotich-9080a625a/">
+            <FaLinkedin className="icon" size={40} />
+          </a>
         </li>
         <li>
-          <a href="#">linkedIn</a>
-        </li>
-        <li>
-          <a href="#">twitter</a>
+          <a href="mailto:rotichmax@outlook.com">
+            <MdEmail className="icon" size={40} />
+          </a>
         </li>
       </ul>
     </div>

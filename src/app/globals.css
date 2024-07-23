@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --foreground-rgb: 40, 40, 40;
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -47,7 +47,7 @@ body {
 
 .Title {
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   /* border-left: 10%; */
 }
 
@@ -101,4 +101,28 @@ body {
   font-family: "Abril Fatface", serif;
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
+}
+
+.Social-links li {
+  transition-property: size;
+  transition-duration: 40s;
+}
+.Social-links li :hover {
+  width: 120%;
+  height: auto;
+  cursor: pointer;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  .Social-links li {
+    transition-property: size;
+    transition-duration: 40s;
+  }
+  .Social-links li :hover {
+    width: 120%;
+    height: auto;
+    cursor: pointer;
+    color: white;
+  }
 }
