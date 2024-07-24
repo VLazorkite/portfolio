@@ -34,7 +34,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 64rem;
 }
 
 .container ::after ::before {
@@ -47,7 +47,7 @@ body {
 
 .Title {
   margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
   /* border-left: 10%; */
 }
 
@@ -83,12 +83,13 @@ body {
 
 .Work h2 {
   font-family: "Abril Fatface", serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
   margin-bottom: 0.8rem;
 }
 
 .Work {
-  margin-bottom: 2rem;
+  margin-bottom: 2.1rem;
 }
 
 .Blog h2 {
@@ -103,26 +104,6 @@ body {
   margin-bottom: 0.8rem;
 }
 
-.Social-links li {
-  transition-property: size;
-  transition-duration: 40s;
-}
-.Social-links li :hover {
-  width: 120%;
-  height: auto;
-  cursor: pointer;
-  color: black;
-}
-
-@media (prefers-color-scheme: dark) {
-  .Social-links li {
-    transition-property: size;
-    transition-duration: 40s;
-  }
-  .Social-links li :hover {
-    width: 120%;
-    height: auto;
-    cursor: pointer;
-    color: white;
-  }
-}
+/* @media (prefers-color-scheme: dark) {
+ 
+} */
