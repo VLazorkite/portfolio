@@ -95,13 +95,83 @@ body {
 .Blog h2 {
   font-family: "Abril Fatface", serif;
   font-size: 1.5rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .Philanthropy h2 {
+  margin-top: 1rem;
   font-family: "Abril Fatface", serif;
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 300px);
+}
+
+.Blog-card {
+  width: 20rem;
+  min-height: 1rem;
+  background: #b2abab;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img-holder {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.card-img-holder img {
+  width: 100%;
+  height: auto;
+  max-height: 15rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.blog-title {
+  color: #22215b;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.description {
+  padding: 1rem 0;
+  color: #22215b80;
+  font-size: 1rem;
+}
+
+.blog-time {
+  font-size: 0.8rem;
+  color: #22215b;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.options span {
+  font-weight: 600;
+  color: #22215b;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  background: #edba99;
+  color: #22215b;
+  cursor: pointer;
 }
 
 /* @media (prefers-color-scheme: dark) {

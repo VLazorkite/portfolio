@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Personal Portfolio Website
 
-## Getting Started
+Welcome to my personal portfolio website! This codebase showcases my skills, projects, and experiences as a software developer. Feel free to explore and learn more about me.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [About Me](#about-me)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Experience](#experience)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About Me
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I am a passionate software developer with a strong background in web development. I love creating elegant and efficient solutions to complex problems. My curiosity and dedication drive me to continuously learn and improve my skills.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Skills
 
-## Learn More
+- Programming Languages: JavaScript/Typescript, Python, Java, C#
+- Front-end Development: HTML, CSS, React
+- Back-end Development: Node.js, Express, Django
+- Database: MongoDB, MySQL, Postgress, Prisma
+- Version Control: Git, GitHub
 
-To learn more about Next.js, take a look at the following resources:
+## Projects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Here are some of the projects I have worked on:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Project 1**: A responsive e-commerce website built with React and Node.js.
+2. **Project 2**: A task management application developed using Python and Django.
+3. **Project 3**: An interactive data visualization dashboard created with D3.js.
 
-## Deploy on Vercel
+For more details about these projects and others, please visit my [GitHub](https://github.com/your-username) repository.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Experience
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Software Developer Intern at XYZ Company (2020-2021)
+- Freelance Web Developer (2018-2020)
+
+## Contact
+
+Feel free to reach out to me via email at [your-email@example.com](mailto:your-email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-username).
+
+Thank you for visiting my portfolio website!

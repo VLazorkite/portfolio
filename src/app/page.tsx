@@ -12,9 +12,9 @@ export default function Home() {
 
         <Work />
 
-        <Blog />
-
         <Philanthropy />
+
+        <Blog />
       </main>
     </>
   );
